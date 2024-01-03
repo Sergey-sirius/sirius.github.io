@@ -1,0 +1,14 @@
+---
+title: Як відокремити Zigbee2MQTT від домашнього помічника в Proxmox
+description: >
+  Як відокремити Zigbee2MQTT від домашнього помічника в Proxmox
+date: 2023-12-05
+tags: 
+    - proxmox
+    - zigbee
+    - mqtt
+---
+
+[source](https://smarthomescene.com/guides/how-to-separate-zigbee2mqtt-from-home-assistant-in-proxmox/)
+
+Нещодавно я написав підручник, який розповідає про найпростіший спосіб встановлення Home Assistant на Proxmox за допомогою автоматизованих допоміжних сценаріїв, що значно спрощує процес розгортання. Оскільки я поділився цією статтею, багато з вас зв’язалися зі мною з проханням надати посібник, як відокремити Zigbee2MQTT від HA у Proxmox. Ця стаття є продовженням першої, і я збираюся показати вам, як саме це зробити: повністю відокремити Zigbee2MQTT від Home Assistant, щоб він міг працювати як окремий контейнер незалежно від Home Assistant.
